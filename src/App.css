@@ -59,3 +59,19 @@ button {
   padding: 0.5em;
   cursor: pointer;
 }
+
+.favorite-container {
+  float: left;
+  max-width: 30em;
+  margin: auto;
+}
+
+.favorite-container > div {
+  border-bottom: solid 1px grey;
+  padding-bottom: 1em;
+  min-width: 20em;
+}
+
+.favorite-container > div > button {
+  min-width: 4em;
+}
